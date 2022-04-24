@@ -23,7 +23,7 @@ import multiprocessing
 import sys
 import ast
 
-#python fitting_wc.py 'HCP_REST1_TC' 'HCP_REST1_FC' 'HCP_SC' 'HCP_len' 'HCP' '[1.0,-1.0]' '640' '160' '50' '[0.,4.]' '[0.,.5]' '[0.5,0.75]'
+#python fitting_wc.py 'HCP_REST1_TC' 'HCP_REST1_FC' 'HCP_SC' 'HCP_len' 'HCP' '[1.0,-1.0]' '640' '160' '50' '[0.,4.]' '[0.,.5]' '[0.5,0.75]' '0.45'
 
 # Input data
 timeSeries = sys.argv[1]
