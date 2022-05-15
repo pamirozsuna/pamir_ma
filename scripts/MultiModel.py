@@ -151,7 +151,7 @@ axs[0].imshow(func.fc(wc_net.BOLD.BOLD[:, wc_net.BOLD.t_BOLD>10*1000]))
 axs[1].plot(wc_net.t, wc_net.q_mean_EXC.T, alpha=0.8)
 axs[1].set_xlim(0, 200)
 axs[2].set_title("Mean Power Spectrum")
-fr, pw = func.getMeanPowerSpectrum(wc.exc, wc.params["dt"])
+fr, pw = func.getMeanPowerSpectrum(wc_net.q_mean_EXC, wc_net.params["dt"])
 axs[2].plot(fr, pw, c='k', lw = 2)
 plt_name = "WCMultiModel"+str(wc_net.params["duration"])+str(wc_net.params["dt"])+"SimulationResultsBOLD"
 plt.savefig(plt_name+".png", dpi=500)
