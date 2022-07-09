@@ -70,6 +70,7 @@ input_exc_ext = np.linspace(0.5, 1.0, 10)
 input_c_ii = np.linspace(0, 2, 10)
 input_c_ie = np.linspace(8, 11, 10)
 input_c_ei = np.linspace(8, 11, 10)
+
 #input_K_gl = np.linspace(0, 1.0, 5)
 #input_sigma_ou = np.linspace(0.5, 1, 10)
 
