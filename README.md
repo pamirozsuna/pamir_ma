@@ -4,7 +4,7 @@ This repository contains the data and results of the master thesis.
 
 ### Notebooks
 
-The notebooks directory features the single node model, whole-brain model, all boxplots and all explorations and activity computation in the MEG processing pipeline.
+The notebooks directory features the single node model, whole-brain model, all boxplots and all explorations and activity computation in the MEG processing pipeline. The folder neurolib contains the heterogeneous WC model.
 
 ### Scripts
 
